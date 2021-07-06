@@ -1,7 +1,6 @@
 {
   "name": "sigma",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -18,5 +17,14 @@
     "gulp-terser": "^2.0.1",
     "postcss": "^8.3.5",
     "sass": "^1.35.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/abhi-sawant/sigma.git"
+  },
+  "bugs": {
+    "url": "https://github.com/abhi-sawant/sigma/issues"
+  },
+  "homepage": "https://github.com/abhi-sawant/sigma#readme",
+  "description": ""
 }

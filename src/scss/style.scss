@@ -1,0 +1,29 @@
+@use 'config';
+
+@font-face {
+    font-family: 'inter';
+    src: url('../fonts/inter.woff') format('woff');
+}
+
+@font-face {
+    font-family: 'worksans';
+    src: url('../fonts/worksans.woff') format('woff');
+}
+
+p {
+    font-family: 'worksans';
+    font-weight: 400;
+}
+
+h2 {
+    font-family: 'inter';
+    font-weight: 600;
+    letter-spacing: 1.4;
+    font-size: 2rem;
+}
+
+.container {
+    width: 90%;
+    max-width: 1300px;
+    margin: auto auto;
+}
