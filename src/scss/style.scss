@@ -1,25 +1,21 @@
 @use 'config';
-
-@font-face {
-    font-family: 'inter';
-    src: url('../fonts/inter.woff') format('woff');
-}
-
-@font-face {
-    font-family: 'worksans';
-    src: url('../fonts/worksans.woff') format('woff');
-}
+@use 'fonts';
 
 p {
-    font-family: 'worksans';
-    font-weight: 400;
+    font-family: 'nunito';
+    font-weight: 600;
+    font-size: 1.1rem;
+    letter-spacing: 0.8;
+    padding: 1em 0;
+    color: #313131;
 }
 
 h2 {
-    font-family: 'inter';
-    font-weight: 600;
+    font-family: 'oswald';
+    font-weight: 800;
     letter-spacing: 1.4;
-    font-size: 2rem;
+    font-size: 3rem;
+    padding: 1em 0;
 }
 
 .container {
