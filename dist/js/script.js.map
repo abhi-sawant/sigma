@@ -1,1 +1,1 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"script.js"}
+{"version":3,"sources":["script.js"],"names":["navToggle","document","querySelector","nav","addEventListener","style","maxHeight","scrollHeight"],"mappings":"AAAA,MAAMA,UAAYC,SAASC,cAAc,eACnCC,IAAMF,SAASC,cAAc,QAGnCF,UAAUI,iBAAiB,SAAS,KAC7BD,IAAIE,MAAMC,UACTH,IAAIE,MAAMC,UAAY,KAGtBH,IAAIE,MAAMC,UAAYH,IAAII,aAAe","file":"script.js"}

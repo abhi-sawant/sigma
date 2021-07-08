@@ -1,2 +1,2 @@
-
+const navToggle=document.querySelector(".nav-toggle"),nav=document.querySelector(".nav");navToggle.addEventListener("click",(()=>{nav.style.maxHeight?nav.style.maxHeight=null:nav.style.maxHeight=nav.scrollHeight+"px"}));
 //# sourceMappingURL=script.js.map

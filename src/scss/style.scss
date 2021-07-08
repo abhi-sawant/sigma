@@ -1,25 +1,96 @@
 @use 'config';
-@use 'fonts';
-
-p {
-    font-family: 'nunito';
-    font-weight: 600;
-    font-size: 1.1rem;
-    letter-spacing: 0.8;
-    padding: 1em 0;
-    color: #313131;
-}
-
-h2 {
-    font-family: 'oswald';
-    font-weight: 800;
-    letter-spacing: 1.4;
-    font-size: 3rem;
-    padding: 1em 0;
-}
+@use 'index';
 
 .container {
     width: 90%;
     max-width: 1300px;
-    margin: auto auto;
+    margin: 0 auto;
+}
+
+.nav-toggle {
+    cursor: pointer;
+    border: 0;
+    width: 3em;
+    height: 3em;
+    padding: 0em;
+    border-radius: 50%;
+    // background: var(--primary-color);
+    transition: opacity 250ms ease;
+    position: absolute;
+    left: 0;
+    transform: translateY(00%);
+}
+
+.nav-toggle:focus,
+.nav-toggle:hover {
+    opacity: 0.75;
+}
+
+.hamburger {
+    width: 50%;
+    position: relative;
+}
+
+.hamburger,
+.hamburger::before,
+.hamburger::after {
+    display: block;
+    margin: 0 auto;
+    height: 3px;
+    background: var(--primary-color);
+}
+
+.hamburger::before,
+.hamburger::after {
+    content: "";
+    width: 100%;
+}
+
+.hamburger::before {
+    transform: translateY(-6px);
+}
+
+.hamburger::after {
+    transform: translateY(3px);
+}
+
+.logo-image {
+    width: 140px;
+}
+
+.header {
+    background-color: #eee;
+    padding: 0.5em 0;
+    text-align: center;
+}
+
+.nav {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 250ms;
+}
+
+.nav-list {
+    margin-top: 1em;
+}
+
+.nav-item {
+    list-style-type: none;
+    margin: 0.5em 0 0.5em 0;
+}
+
+.nav-link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-family: var(--title-font);
+    font-weight: 700;
+    font-size: 1.125rem;
+    cursor: pointer;
+}
+
+@media (min-width: 500px){
+    // .logo-image {
+    //     width: 30%;
+    // }
 }
