@@ -1,2 +1,2 @@
-const navToggle=document.querySelector(".nav-toggle"),nav=document.querySelector(".nav");navToggle.addEventListener("click",(()=>{nav.style.maxHeight?nav.style.maxHeight=null:nav.style.maxHeight=nav.scrollHeight+"px"}));
+const navToggle=document.querySelector(".nav-toggle"),nav=document.querySelector(".nav"),ham=document.querySelector(".hamburger");navToggle.addEventListener("click",(()=>{nav.style.maxHeight?(nav.style.maxHeight=null,ham.classList.remove("hamburger-open")):(nav.style.maxHeight=nav.scrollHeight+"px",ham.classList.add("hamburger-open"))}));
 //# sourceMappingURL=script.js.map

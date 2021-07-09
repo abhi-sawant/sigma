@@ -1,1 +1,50 @@
 @use 'config';
+
+.hero {
+    height: 92vh;
+    background: url("../img/hero-bg.jpg"), rgba(0,0,0,0.7);
+    background-blend-mode: darken;
+    background-size: cover;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .row{
+        flex-direction: column;
+        margin-bottom: 8em;
+        text-align: center;
+        .tag-line {
+            font-size: 3em;
+            color: var(--secondary-color);
+            text-align: center;
+            text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+        }
+        .admission {
+            margin-top: 2em;
+            text-transform: uppercase;
+            padding: 0.5em 1em;
+            text-decoration: none;
+            background: var(--secondary-color);
+            border: none;
+            border-radius: 5px;
+            a {
+                font-family: var(--title-font);
+                font-weight: 800;
+                text-decoration: none;
+                letter-spacing: 1.4;
+                font-size: 1.3rem;
+                color: var(--primary-color);
+                text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+            }
+        }
+    }
+}
+
+@media (min-width: 1000px) {
+    .hero {
+        .row {
+            .tag-line {
+                font-size: 4rem;
+            }
+        }
+    }
+}
