@@ -22,6 +22,18 @@
   font-weight: 700;
 }
 
+@font-face {
+  font-family: "lato";
+  src: url("../fonts/lato-regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "lato";
+  src: url("../fonts/lato-bold.woff") format("woff");
+  font-weight: 700;
+}
+
 /* Box sizing rules */
 *,
 *::before,
@@ -35,7 +47,7 @@
   --primary-color: hsl(215, 92%, 15%);
   --secondary-color: hsl(41, 75%, 42%);
   --title-font: "oswald";
-  --body-font: "nunito";
+  --body-font: "lato";
 }
 
 h1,
@@ -48,8 +60,8 @@ h3 {
 p,
 li,
 span {
-  font-family: "nunito";
-  letter-spacing: 1;
+  font-family: "lato";
+  // letter-spacing: 1;
 }
 
 /* Remove default margin */
