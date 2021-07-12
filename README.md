@@ -10,6 +10,10 @@ Our college's current website - [Click Here](https://sigma.ac.in/)
 - cssnano, postcss and sass
 - gulp
 
+## Libraries used
+- [Slick](https://github.com/kenwheeler/slick) For testimony carousel 
+- [AOS](https://github.com/michalsnik/aos) For scroll animations
+
 ## How to set the workflow
 Just fork or download the code and run
 ```
