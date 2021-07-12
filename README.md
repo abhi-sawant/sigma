@@ -2,7 +2,7 @@
 This project is my take on the homepage design of our college website.
 
 ## Links
-This project is hosted on github pages - [Click Here](https://abhi-sawant.github.io/sigma/)
+This project is hosted on github pages - [Click Here](https://abhi-sawant.github.io/sigma/) | 
 Our college's current website - [Click Here](https://sigma.ac.in/)
 
 ## Laguages and Tools used
